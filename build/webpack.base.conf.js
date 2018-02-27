@@ -36,7 +36,7 @@ module.exports = {
 			},
 			{
 				test: /\.js$/,
-				loader: 'babel-loader',
+				loader: 'babel-loader?cacheDirectory', // 开启缓存
 				include: resolve('src')
 			},
 			{

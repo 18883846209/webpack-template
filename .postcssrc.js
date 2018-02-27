@@ -5,6 +5,7 @@ module.exports = {
 		// to edit target browsers: use "browserslist" field in package.json
 		"postcss-import": {},
 		// "autoprefixer": {}
-		"postcss-cssnext": {}
+		"postcss-cssnext": {},
+		"cssnano": {} // 开启css压缩
 	}
 }
