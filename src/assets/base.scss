@@ -1,9 +1,9 @@
-@mixin _bg($url) {
+@mixin _bg($url, $ext) {
     // 背景图片适配2倍屏与3倍屏
-    background-image: url($url + "@2x.jpg");
+    background-image: url($url + "@2x." + $ext);
     background-repeat: no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3) {
-        background-image: url($url + "@3x.jpg");
+        background-image: url($url + "@3x." + $ext);
     }
 }
 
