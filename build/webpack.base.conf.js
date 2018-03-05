@@ -13,6 +13,8 @@ module.exports = {
 	// 	index: './src/index.js'
 	// },
 	entry: utils.entries(),
+	// entry: './src/test.ts',
+	devtool: 'inline-source-map',
 	output: {
 		path: config.build.assetsRoot,
 		filename: '[name].js',
