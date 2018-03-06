@@ -6,6 +6,8 @@ module.exports = {
 		"postcss-import": {},
 		// "autoprefixer": {}
 		"postcss-cssnext": {},
-		"cssnano": {} // 开启css压缩
+		"cssnano": {
+			"autoprefixer": false
+		} // 开启css压缩
 	}
 }
